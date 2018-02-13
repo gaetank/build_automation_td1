@@ -1,0 +1,16 @@
+{
+  "name": "td_1",
+  "version": "1.0.0",
+  "description": "tp build automation IMIE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"test\" && exit 1",
+    "pretest": "echo \"pretest\"  ",
+    "posttest": "echo \"posttest\"  ",
+    "qualityCheck": "echo \"qualityCheck\"  ",
+    "preQualityCheck": "echo \"preQualityCheck\"  ",
+    "postQualityCheck": "echo \"postQualityCheck\"  "
+  },
+  "author": "gke",
+  "license": "ISC"
+}
