@@ -4,12 +4,12 @@
   "description": "tp build automation IMIE",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"test\" && exit 1",
-    "pretest": "echo \"pretest\"  ",
+    "test": "echo \"test\"",
+    "pretest": "echo \"pretest\" && npm run qualityCheck ",
     "posttest": "echo \"posttest\"  ",
     "qualityCheck": "echo \"qualityCheck\"  ",
-    "preQualityCheck": "echo \"preQualityCheck\"  ",
-    "postQualityCheck": "echo \"postQualityCheck\"  "
+    "prequalityCheck": "echo \"preQualityCheck\"  ",
+    "postqualityCheck": "echo \"postQualityCheck\"  "
   },
   "author": "gke",
   "license": "ISC"
